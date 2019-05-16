@@ -1,0 +1,41 @@
+/********************************
+  #main-nav API Link tabs
+********************************/
+
+#main-nav {
+  text-align: center;
+
+  @include col-md{
+      text-align: left;
+  }
+
+  ul li {
+    display: inline-block;
+    width: 50%;
+  }
+
+  a {
+    padding: 1rem 2rem;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+    &:hover,
+    &:active {
+      /* nothing yet..*/
+    }
+    &.flickr-link {
+      background: rgba($color-bg-black, .98);
+      color: $color-text-light;
+    }
+
+    &.spotify-link {
+    background: $color-bg-green;
+    color: $color-text-dark;
+    font-weight: 700;
+    }
+  }
+}
+
+#main-nav li:last-of-type {
+  margin-left: -5px;
+}

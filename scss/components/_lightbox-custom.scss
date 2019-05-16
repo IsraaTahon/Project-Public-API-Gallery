@@ -1,0 +1,13 @@
+/********************************
+  Lightbox2 Style Overrides
+********************************/
+
+.lb-dataContainer{
+  & .lb-data > .lb-details {
+    font-family: $stack-open-sans;
+    font-size: 1.2rem;
+  }
+  & .lb-data .lb-caption {
+    font-size: 1.2rem;
+  }
+}

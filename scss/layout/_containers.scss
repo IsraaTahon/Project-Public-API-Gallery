@@ -1,0 +1,48 @@
+
+/****************************************
+  Containers
+/***************************************/
+
+/* --- Wrapper .container --- */
+
+.wrapper {
+  margin: $margin-center;
+  width: 90%;
+  max-width: 700px;
+
+  &.flickr-inner {
+      background: $color-bg-black;
+      padding: 1rem;
+  }
+
+  &.spotify-inner {
+      background: $color-bg-green;
+      padding: 1rem;
+  }
+}
+
+.container:first-of-type {
+  margin-top: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
